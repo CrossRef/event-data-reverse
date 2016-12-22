@@ -29,9 +29,9 @@ services:
      - '8004:8004'
     volumes:
      - .:/usr/src/app
-     - ./.m2-cache:/home/root/.m2
+     - ./.m2-cache:/root/.m2
     environment:
-     - PORT=8003
+     - PORT=8004
      - REDIS_HOST=redis
      - REDIS_PORT=6379
      - REDIS_DB=0
