@@ -28,7 +28,7 @@ To run tests
 NB These URLs will not work until CED launched.
 
  - `10.5555/123456789` - a DOI expressed outside a URL. [demo](https://reverse.eventdata.crossref.org/guess-doi?q=10.5555/123456789).
- - `doi: 10.5555/12345678` - a DOI expressed with a `doi:` prefix, flexibly. [demo](https://reverse.eventdata.crossref.org/guess-doi?q=doi: 10.5555/12345678).
+ - `doi: 10.5555/12345678` - a DOI expressed with a `doi:` prefix, flexibly. [demo](https://reverse.eventdata.crossref.org/guess-doi?q=doi:%2010.5555/12345678).
  - `doi.org/10.5555/12345678` - a DOI expressed as a web address without full scheme. [demo](https://reverse.eventdata.crossref.org/guess-doi?q=doi.org/10.5555/12345678).
  - `http://doi.org/10.5555/123456789` - a DOI expressed as a full URL. [demo](https://reverse.eventdata.crossref.org/guess-doi?q=http://doi.org/10.5555/123456789).
 
